@@ -159,10 +159,6 @@ on property:wlan.driver.status=ok
     chown system system /proc/touchpanel/letter_o_enable
     chmod 0660 /proc/touchpanel/letter_o_enable
 
-# Vibrator permissions
-    chown root system /sys/devices/virtual/timed_output/vibrator/vtg_level
-    chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
-
     # Graphics
     chown system system /sys/class/graphics/fb0/srgb
     chmod 0664 /sys/class/graphics/fb0/srgb

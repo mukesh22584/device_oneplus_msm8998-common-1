@@ -1118,7 +1118,12 @@
     <!-- Whether the device supports Smart Pixels--> 
     <bool name="config_enableSmartPixels">true</bool>
 
+
    <!-- Defines the sysfs attribute path used by pocket bridge
     to communicate pocket state to the pocket judge kernel driver. -->
     <string name="config_pocketBridgeSysfsInpocket">/sys/kernel/pocket_judge/inpocket</string>
+
+    <!-- The maximum duration (in milliseconds) we expect a network transition to take -->
+    <integer name="config_networkTransitionTimeout">20000</integer>
+
 </resources>

@@ -739,4 +739,11 @@
         <item>org.microg.nlp</item>
     </string-array>
 
+    <integer-array name="config_availableColorModes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
 </resources>

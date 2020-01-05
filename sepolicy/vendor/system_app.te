@@ -1,4 +1,4 @@
-allow system_app persist_camera_prop:file { r_file_perms };
+get_prop(system_app, persist_camera_prop)
 
 #selinux status
 allow system_app selinuxfs:file { r_file_perms };
